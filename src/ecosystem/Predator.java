@@ -1,5 +1,7 @@
 package ecosystem;
 
+import javax.swing.ImageIcon;
+
 /**
  * Classe des prédateurs. Ce sont les poissons qui chassent les proies.
  * 
@@ -14,6 +16,8 @@ public class Predator extends Fish {
      * @attribute
      */
     private static int PREDATOR_CLONE_TIME;
+
+    private static ImageIcon icone;
     
     /**
      * Constructeur de la classe Predator
@@ -25,6 +29,7 @@ public class Predator extends Fish {
      */
     public Predator(String name, int num, Double weight, int x, int y) {
         super(name, num, weight, x, y);
+        this.icone = new ImageIcon("img\\predator.png");
     }
 
     /**
@@ -74,6 +79,13 @@ public class Predator extends Fish {
         
             Lagoon.addToListeActions(this.getNum() + " se clone et cree " + newPredator + ".");
         }
+    }
+
+    /**
+     * @return the icone
+     */
+    public static ImageIcon getIcone() {
+        return icone;
     }
 
     /**

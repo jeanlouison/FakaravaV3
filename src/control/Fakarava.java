@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import ecosystem.*;
-import gui.LagoonPainter;
+import gui.*;
 
 public class Fakarava {
     /**
@@ -128,7 +128,7 @@ public class Fakarava {
         Predator.setBiteFactor(biteFactor);
         Random.mySeed = seed;
 
-        LagoonPainter.init();
+        LagoonPainter.createGrid();
     }
 
     /**

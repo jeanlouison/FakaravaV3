@@ -1,5 +1,7 @@
 package ecosystem;
 
+import javax.swing.ImageIcon;
+
 public class Prey extends Fish {
     /**
      * @attribute
@@ -16,6 +18,8 @@ public class Prey extends Fish {
      */
     private static int MAX_DENSITY;
 
+    private static ImageIcon icone;
+
     /**
      * Constructeur de la classe Prey
      * @param name nom de la proie
@@ -28,6 +32,7 @@ public class Prey extends Fish {
     public Prey(String name, int num, Double weight, int x, int y, int vivacity) {
         super(name, num, weight, x, y);
         this.vivacity = vivacity;
+        this.icone = new ImageIcon("img\\prey.png");
 	}
 
     /**
@@ -92,6 +97,13 @@ public class Prey extends Fish {
      */
     public static void setMaxDensity(int maxDensity) {
         Prey.MAX_DENSITY = maxDensity;
+    }
+
+    /**
+     * @return the icone
+     */
+    public static ImageIcon getIcone() {
+        return icone;
     }
 
     /**

@@ -4,9 +4,9 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 
 import ecosystem.*;
+import gui.LagoonPainter;
 
 public class Fakarava {
     /**
@@ -127,6 +127,8 @@ public class Fakarava {
         Predator.setPredatorCloneTime(predatorCloneTime);
         Predator.setBiteFactor(biteFactor);
         Random.mySeed = seed;
+
+        LagoonPainter.init();
     }
 
     /**

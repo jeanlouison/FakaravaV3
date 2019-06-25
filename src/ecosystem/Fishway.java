@@ -2,8 +2,6 @@ package ecosystem;
 
 import java.util.ArrayList;
 
-import com.sun.corba.se.spi.activation.LocatorHolder;
-
 public class Fishway implements Clock {
     /**
      * @attribute

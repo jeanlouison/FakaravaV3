@@ -21,6 +21,7 @@ class Main {
         Fakarava.init(biteFactor, maxCurrentStrength, maxDensity, n, predatorCloneTime,
         preyCloneTime, null);
         //Long.parseLong("1238577643")
+
         int jojo = Fakarava.createPrey("Mérou", 3.0, 1, 2, 99);
         int lola = Fakarava.createPrey("Poisson Lune", 1.0, 0, 1, 90);
         int alfred = Fakarava.createPrey("Poisson Perroquet", 2.0, 0, 3, 51);
@@ -32,6 +33,7 @@ class Main {
         Fakarava.putCamera(enzo, p1);
         Fakarava.putTransmitters(enzo, p1);
         long time = 1;
+        
         while(! Fakarava.end){
             Fakarava.clockForward();
             time++;

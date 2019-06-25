@@ -49,6 +49,4 @@ public class Camera {
     public Fishway getFishway() {
         return fishway;
     }
-
-    
 }

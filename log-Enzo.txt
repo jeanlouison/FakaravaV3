@@ -1,0 +1,12 @@
+Pose une camera sur : 0
+4 attaque 2
+2 est mort
+Pose transmitter sur : 4
+Predateur no 4 : Requin Gris, age : 6, x: 0 y:1, 71.0 kg.
+4 attaque 1
+1 est mort
+Predateur no 4 : Requin Gris, age : 7, x: 0 y:2, 71.0 kg.
+Predateur no 4 : Requin Gris, age : 8, x: 0 y:2, 70.0 kg.
+4 attaque 0
+0 est mort
+Predateur no 4 : Requin Gris, age : 9, x: 0 y:2, 72.0 kg.

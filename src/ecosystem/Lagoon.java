@@ -1,6 +1,9 @@
 package ecosystem;
 
+import java.awt.Color;
 import java.util.ArrayList;
+
+import gui.LagoonPainter;
 
 /**
  * Classe gestionnaire des instances des poissons et passes a poissons.
@@ -309,6 +312,7 @@ public class Lagoon {
                         Fishway newFishway = new Fishway(nextFishwayNum, x, y);
                         res = nextFishwayNum;
                         Lagoon.fishwaysList.add(newFishway);
+                        LagoonPainter.getCellByPosition(x, y).setBackground(Color.GRAY);;
                         nextFishwayNum ++;
                     }
                 }

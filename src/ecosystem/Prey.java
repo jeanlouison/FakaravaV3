@@ -1,6 +1,9 @@
 package ecosystem;
 
 import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+
+import gui.LagoonPainter;
 
 public class Prey extends Fish {
     /**
@@ -18,7 +21,7 @@ public class Prey extends Fish {
      */
     private static int MAX_DENSITY;
 
-    private static ImageIcon icone;
+    private static ImageIcon icone = new ImageIcon("\\img\\prey.png");
 
     /**
      * Constructeur de la classe Prey
@@ -32,7 +35,6 @@ public class Prey extends Fish {
     public Prey(String name, int num, Double weight, int x, int y, int vivacity) {
         super(name, num, weight, x, y);
         this.vivacity = vivacity;
-        this.icone = new ImageIcon("img\\prey.png");
 	}
 
     /**
@@ -115,6 +117,8 @@ public class Prey extends Fish {
 
         this.duplicate();
         super.tickTock(isDay);
+        LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).add(new JLabel("prey"));
+        // LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).addToCell(icone);
     }
 
     /**

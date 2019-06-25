@@ -1,10 +1,12 @@
 package ecosystem;
 
 import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+
+import gui.LagoonPainter;
 
 /**
  * Classe des prédateurs. Ce sont les poissons qui chassent les proies.
- * 
  */
 public class Predator extends Fish {
     /**
@@ -17,7 +19,10 @@ public class Predator extends Fish {
      */
     private static int PREDATOR_CLONE_TIME;
 
-    private static ImageIcon icone;
+    /**
+     * @attribute
+     */
+    private static ImageIcon icone= new ImageIcon("\\img\\predator.png");
     
     /**
      * Constructeur de la classe Predator
@@ -29,7 +34,6 @@ public class Predator extends Fish {
      */
     public Predator(String name, int num, Double weight, int x, int y) {
         super(name, num, weight, x, y);
-        this.icone = new ImageIcon("img\\predator.png");
     }
 
     /**
@@ -97,6 +101,8 @@ public class Predator extends Fish {
         super.tickTock(isDay);
         this.setWeight(this.getWeight() - 1);
         this.duplicate();
+        // LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).add(new JLabel("predator"));
+        LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).addToCell(icone);
 
         if (this.getWeight() == 0) {
             this.die();

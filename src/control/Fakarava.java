@@ -28,13 +28,14 @@ public class Fakarava {
             Fakarava.isDay = true;
         }
 
+    
         //Verificatinon du game over
         if (Lagoon.getPreyList().size() > (Prey.getMaxDensity() * (Lagoon.getLength() * Lagoon.getLength()))
                 || Lagoon.getPreyList().isEmpty()) {
 
             //creation des fichiers a la fin de la simulation
             for (Diver d : Lagoon.getDiversList()){
-                String nomFichierLog = "log-"+d.getId()+".txt";
+                String nomFichierLog = "log-"+d.getName()+".txt";
                 
                 try {
                     File file = new File(nomFichierLog);
@@ -55,6 +56,8 @@ public class Fakarava {
             
             end = true;
         }
+
+        
 
         int tailleFishesList = Lagoon.getFishesList().size();
 
@@ -106,7 +109,17 @@ public class Fakarava {
             }
         }
 
-       // spyReport();
+        LagoonPainter.resetGrid();
+        LagoonPainter.updateFrame();
+
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
     }
 
     /**

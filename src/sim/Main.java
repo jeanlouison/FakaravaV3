@@ -13,15 +13,17 @@ class Main {
             verbose = true;
         }
         int biteFactor = 10,
-        maxCurrentStrength = 20,
-        maxDensity = 3,
-        n = 4,
-        predatorCloneTime = 10,
-        preyCloneTime = 2;
+            maxCurrentStrength = 20,
+            maxDensity = 3,
+            n = 4,
+            predatorCloneTime = 30,
+            preyCloneTime = 30;
+
         Fakarava.init(biteFactor, maxCurrentStrength, maxDensity, n, predatorCloneTime,
         preyCloneTime, null);
         //Long.parseLong("1238577643")
 
+        
         int jojo = Fakarava.createPrey("Mérou", 3.0, 1, 2, 99);
         int lola = Fakarava.createPrey("Poisson Lune", 1.0, 0, 1, 90);
         int alfred = Fakarava.createPrey("Poisson Perroquet", 2.0, 0, 3, 51);

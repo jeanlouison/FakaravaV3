@@ -1,0 +1,39 @@
+﻿17/05(DCA/DCC semaine 1)
+
+
+- Ajout des constructeurs, des accesseurs et des setteurs
+Parce qu’on les a oublié
+
+
+- Ajout de fonctions getType():String
+
+
+Pour pouvoir récupérer une liste des prédateurs et des proies depuis la liste de poissons
+
+
+- Les constantes des prédateurs et des proies sont maintenant en statique
+Parce que tous les objets de la classe partagent ces attributs
+
+
+- Ajout de la classe Lagoon, qui est le gestionnaire d’instances
+
+- Séparation en deux diagrammes : Un pour control (Avec Fakarava et sa relation avec les packages) et un pour ecosystem (Avec les classes Lagoon, Fish, etc...)
+Pour plus de clarté
+
+
+- MAX_DENSITY est maintenant dans Prey et plus dans Fakarava
+Parce que c’est un attribut qui concerne les proies
+
+
+- Vivacity et weight sont maintenant des Double
+En accord avec le sujet
+
+29/05(DCA/DCC semaine 2)
+
+- Ajout des classes Transmitter, Diver, Camera.
+
+- Fishway implémente maintenant l'interface clock : C'est nécessaire car on appelle hunt() dans tickTock().
+
+- Ajout des attributs et méthodes nécéssaires à l'itération dans les classes déjà existantes.
+
+- tickTock() a maintenant un paramètre : isDay. En effet c'est le seul moyen pour nous de le récupérer dans les classes qui l'utilisent.

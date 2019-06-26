@@ -64,7 +64,6 @@ public class Fakarava {
         //ticktock des poissons
         for (int i = 0; i < tailleFishesList; i++) {
             Fish f = Lagoon.getFishesList().get(i);
-            // System.out.println("nbr prey"+Lagoon.getPreyList().size());
             if (f != null) {
                 f.tickTock(isDay);
             }

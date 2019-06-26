@@ -3,8 +3,6 @@ package ecosystem;
 import java.awt.Color;
 import java.util.ArrayList;
 
-import javax.swing.JLabel;
-
 import gui.LagoonPainter;
 
 public class Fishway implements Clock {

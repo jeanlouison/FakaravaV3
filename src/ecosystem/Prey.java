@@ -1,7 +1,6 @@
 package ecosystem;
 
 import javax.swing.ImageIcon;
-import javax.swing.JLabel;
 
 import gui.LagoonPainter;
 
@@ -21,7 +20,7 @@ public class Prey extends Fish {
      */
     private static int MAX_DENSITY;
 
-    private static ImageIcon icone = new ImageIcon("prey.png");
+    private ImageIcon icone = new ImageIcon("prey.png");
 
     /**
      * Constructeur de la classe Prey
@@ -104,7 +103,7 @@ public class Prey extends Fish {
     /**
      * @return the icone
      */
-    public static ImageIcon getIcone() {
+    public ImageIcon getIcone() {
         return icone;
     }
 

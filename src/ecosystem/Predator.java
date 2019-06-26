@@ -21,7 +21,7 @@ public class Predator extends Fish {
     /**
      * @attribute
      */
-    private static ImageIcon icone = new ImageIcon("predator.png");
+    private ImageIcon icone = new ImageIcon("predator.png");
     
     /**
      * Constructeur de la classe Predator
@@ -87,8 +87,12 @@ public class Predator extends Fish {
     /**
      * @return the icone
      */
-    public static ImageIcon getIcone() {
-        return icone;
+    public ImageIcon getIcone() {
+        return this.icone;
+    }
+
+    public void setIcon(ImageIcon icon){
+        this.icone = icon;
     }
 
     /**
@@ -100,7 +104,6 @@ public class Predator extends Fish {
         super.tickTock(isDay);
         this.setWeight(this.getWeight() - 1);
         this.duplicate();
-        // LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).add(new JLabel("predator"));
         LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).addToCell(icone);
 
         if (this.getWeight() == 0) {

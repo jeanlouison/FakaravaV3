@@ -15,9 +15,9 @@ class Main {
         int biteFactor = 10,
             maxCurrentStrength = 20,
             maxDensity = 3,
-            n = 4,
-            predatorCloneTime = 30,
-            preyCloneTime = 30;
+            n = 6,
+            predatorCloneTime = 20,
+            preyCloneTime = 20;
 
         Fakarava.init(biteFactor, maxCurrentStrength, maxDensity, n, predatorCloneTime,
         preyCloneTime, null);

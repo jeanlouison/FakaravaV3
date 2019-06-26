@@ -2,6 +2,11 @@ package ecosystem;
 
 import java.util.ArrayList;
 
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+
+import gui.LagoonPainter;
+
 public class Diver implements Clock{
     /**
      * @attribute
@@ -245,6 +250,7 @@ public class Diver implements Clock{
                 else
                 {
                     this.log.add(t.getPredator().toString());
+                    t.getPredator().setIcon(new ImageIcon("predwtransmitter.png"));
                 }
             }
         }
@@ -255,10 +261,12 @@ public class Diver implements Clock{
                 
                 //si on a pose une camera
                 if (action[1].equals("Camera")) {
+                    LagoonPainter.getCellByPosition(Lagoon.getFishway(Integer.parseInt(action[0])).getPosition()[0], Lagoon.getFishway(Integer.parseInt(action[0])).getPosition()[1]).add(new JLabel(new ImageIcon("diverputtingcamera.png")));
                     this.putCamera(Lagoon.getFishway(Integer.parseInt(action[0])));
                 }
                 //si on a pose un transmetteur
                 else {
+                    LagoonPainter.getCellByPosition(Lagoon.getFishway(Integer.parseInt(action[0])).getPosition()[0], Lagoon.getFishway(Integer.parseInt(action[0])).getPosition()[1]).add(new JLabel(new ImageIcon("diverputtingtransmitter.png")));
                     this.putTransmitters(Lagoon.getFishway(Integer.parseInt(action[0])));
                 } 
             }

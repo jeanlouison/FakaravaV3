@@ -1,5 +1,7 @@
 package ecosystem;
 
+import javax.swing.ImageIcon;
+
 public class Transmitter {
     /**
      * @attribute
@@ -26,6 +28,7 @@ public class Transmitter {
         this.num = num;
         this.predator = p;
         this.diver = diver;
+        p.setIcon(new ImageIcon("predwtransmitter.png"));
     }
 
     /**

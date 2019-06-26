@@ -109,7 +109,7 @@ public class Fakarava {
             }
         }
 
-        LagoonPainter.resetGrid();
+        
         LagoonPainter.updateFrame();
 
         try
@@ -120,6 +120,7 @@ public class Fakarava {
         {
             Thread.currentThread().interrupt();
         }
+        LagoonPainter.resetGrid();
     }
 
     /**

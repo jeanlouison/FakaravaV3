@@ -2,7 +2,6 @@ package gui;
 
 import java.awt.Color;
 
-import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -19,8 +18,7 @@ public class Cell extends JPanel {
         super();
         this.position[0] = x;
         this.position[1] = y;
-        this.setBackground(Color.CYAN);
-        this.setBorder(BorderFactory.createLineBorder(Color.black));
+        this.setBackground(Color.WHITE);
     }
 
     /**

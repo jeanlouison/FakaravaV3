@@ -305,7 +305,6 @@ public class Fishway implements Clock {
             i++;
         }
 
-        LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).add(new JLabel("f"));
         LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).setBackground(Color.lightGray);
     }
 }

@@ -312,7 +312,7 @@ public class Lagoon {
                         Fishway newFishway = new Fishway(nextFishwayNum, x, y);
                         res = nextFishwayNum;
                         Lagoon.fishwaysList.add(newFishway);
-                        LagoonPainter.getCellByPosition(x, y).setBackground(Color.GRAY);;
+                        LagoonPainter.getCellByPosition(x, y).setBackground(Color.CYAN);
                         nextFishwayNum ++;
                     }
                 }

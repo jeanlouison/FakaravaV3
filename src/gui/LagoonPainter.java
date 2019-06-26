@@ -5,6 +5,7 @@ import java.awt.GridLayout;
 import java.util.ArrayList;
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;
 
@@ -52,13 +53,10 @@ public class LagoonPainter {
             Component[] componentList = cellList.get(i).getComponents();
 
             for(Component c : componentList){
-                System.out.println("non");
-                if( c instanceof JPanel){
-                    System.out.println("oui");
+                if(c instanceof JLabel){
                     cellList.get(i).remove(c);
                 }
             }
-
             cellList.get(i).revalidate();
             cellList.get(i).repaint();
         }

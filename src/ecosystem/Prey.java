@@ -21,7 +21,7 @@ public class Prey extends Fish {
      */
     private static int MAX_DENSITY;
 
-    private static ImageIcon icone = new ImageIcon("\\img\\prey.png");
+    private static ImageIcon icone = new ImageIcon("prey.png");
 
     /**
      * Constructeur de la classe Prey
@@ -117,8 +117,8 @@ public class Prey extends Fish {
 
         this.duplicate();
         super.tickTock(isDay);
-        LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).add(new JLabel("prey"));
-        // LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).addToCell(icone);
+        // LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).add(new JLabel("prey"));
+        LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).addToCell(icone);
     }
 
     /**

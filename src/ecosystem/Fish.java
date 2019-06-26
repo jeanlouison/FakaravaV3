@@ -139,7 +139,7 @@ public abstract class Fish implements Clock {
      */
     public void setWeight(Double weight) {
         if (weight <= 0) {
-            throw new IllegalArgumentException();
+            this.weight = -weight + 1;
         }   
         else {
             this.weight = weight;

@@ -1,7 +1,6 @@
 package ecosystem;
 
 import javax.swing.ImageIcon;
-import javax.swing.JLabel;
 
 import gui.LagoonPainter;
 
@@ -22,7 +21,7 @@ public class Predator extends Fish {
     /**
      * @attribute
      */
-    private static ImageIcon icone= new ImageIcon("\\img\\predator.png");
+    private static ImageIcon icone = new ImageIcon("predator.png");
     
     /**
      * Constructeur de la classe Predator

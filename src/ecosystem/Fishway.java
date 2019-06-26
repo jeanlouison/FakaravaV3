@@ -3,6 +3,9 @@ package ecosystem;
 import java.awt.Color;
 import java.util.ArrayList;
 
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+
 import gui.LagoonPainter;
 
 public class Fishway implements Clock {
@@ -302,7 +305,9 @@ public class Fishway implements Clock {
             }
             i++;
         }
-
+        if (camera != null) {
+            LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).addToCell(new ImageIcon("camera.png"));
+        }
         LagoonPainter.getCellByPosition(this.getPosition()[0], this.getPosition()[1]).setBackground(Color.lightGray);
     }
 }

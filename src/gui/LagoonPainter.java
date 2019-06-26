@@ -77,4 +77,9 @@ public class LagoonPainter {
         frame.validate();
         frame.repaint();
     }
+
+    public static void exit() {
+        frame.setVisible(false);
+        frame.dispose();
+    }
 }

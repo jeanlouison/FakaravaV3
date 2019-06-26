@@ -1,12 +1,88 @@
 Pose une camera sur : 0
-4 attaque 2
-2 est mort
-Pose transmitter sur : 4
-Predateur no 4 : Requin Gris, age : 6, x: 0 y:1, 71.0 kg.
+Pose transmitter sur : 5
+Predateur no 5 : Requin Brun, age : 6, x: 0 y:3, 63.0 kg.
+Predateur no 5 : Requin Brun, age : 7, x: 0 y:3, 62.0 kg.
+Predateur no 5 : Requin Brun, age : 8, x: 0 y:3, 61.0 kg.
+Predateur no 5 : Requin Brun, age : 9, x: 0 y:3, 60.0 kg.
+Predateur no 5 : Requin Brun, age : 10, x: 0 y:3, 59.0 kg.
+Predateur no 5 : Requin Brun, age : 11, x: 0 y:3, 58.0 kg.
+Predateur no 5 : Requin Brun, age : 12, x: 1 y:3, 57.0 kg.
 4 attaque 1
 1 est mort
-Predateur no 4 : Requin Gris, age : 7, x: 0 y:2, 71.0 kg.
-Predateur no 4 : Requin Gris, age : 8, x: 0 y:2, 70.0 kg.
-4 attaque 0
+Predateur no 5 : Requin Brun, age : 13, x: 2 y:3, 56.0 kg.
+Predateur no 5 : Requin Brun, age : 14, x: 1 y:3, 55.0 kg.
+Predateur no 5 : Requin Brun, age : 15, x: 0 y:3, 54.0 kg.
+Predateur no 5 : Requin Brun, age : 16, x: 0 y:3, 53.0 kg.
+Predateur no 5 : Requin Brun, age : 17, x: 0 y:3, 52.0 kg.
+Predateur no 5 : Requin Brun, age : 18, x: 0 y:3, 51.0 kg.
+5 attaque 7
+7 est mort
+Predateur no 5 : Requin Brun, age : 19, x: 0 y:2, 51.0 kg.
+Predateur no 5 : Requin Brun, age : 20, x: 1 y:2, 50.0 kg.
+Predateur no 5 : Requin Brun, age : 21, x: 1 y:2, 49.0 kg.
+Predateur no 5 : Requin Brun, age : 22, x: 1 y:2, 48.0 kg.
+5 attaque 12
+12 est mort
+Predateur no 5 : Requin Brun, age : 23, x: 0 y:2, 50.0 kg.
+Predateur no 5 : Requin Brun, age : 24, x: 1 y:2, 49.0 kg.
+Predateur no 5 : Requin Brun, age : 25, x: 1 y:1, 48.0 kg.
+Predateur no 5 : Requin Brun, age : 26, x: 1 y:1, 47.0 kg.
+Predateur no 5 : Requin Brun, age : 27, x: 1 y:0, 46.0 kg.
+Predateur no 5 : Requin Brun, age : 28, x: 1 y:1, 45.0 kg.
+Predateur no 5 : Requin Brun, age : 29, x: 1 y:0, 44.0 kg.
+3 attaque 8
+8 est mort
+Predateur no 5 : Requin Brun, age : 30, x: 1 y:0, 43.0 kg.
+Predateur no 5 : Requin Brun, age : 31, x: 1 y:0, 42.0 kg.
+9 attaque 14
+14 est mort
+Predateur no 5 : Requin Brun, age : 32, x: 0 y:0, 41.0 kg.
+Predateur no 5 : Requin Brun, age : 33, x: 0 y:1, 40.0 kg.
+9 attaque 18
+18 est mort
+Predateur no 5 : Requin Brun, age : 34, x: 0 y:1, 39.0 kg.
+Predateur no 5 : Requin Brun, age : 35, x: 0 y:1, 38.0 kg.
+Predateur no 5 : Requin Brun, age : 36, x: 1 y:1, 37.0 kg.
+Predateur no 5 : Requin Brun, age : 37, x: 2 y:1, 36.0 kg.
+Predateur no 5 : Requin Brun, age : 38, x: 1 y:1, 35.0 kg.
+Predateur no 5 : Requin Brun, age : 39, x: 1 y:1, 34.0 kg.
+Predateur no 5 : Requin Brun, age : 40, x: 1 y:0, 33.0 kg.
+Predateur no 5 : Requin Brun, age : 41, x: 2 y:0, 32.0 kg.
+Predateur no 5 : Requin Brun, age : 42, x: 2 y:0, 31.0 kg.
+Predateur no 5 : Requin Brun, age : 43, x: 2 y:0, 30.0 kg.
+Predateur no 5 : Requin Brun, age : 44, x: 2 y:0, 29.0 kg.
+23 attaque 0
 0 est mort
-Predateur no 4 : Requin Gris, age : 9, x: 0 y:2, 72.0 kg.
+Predateur no 5 : Requin Brun, age : 45, x: 1 y:0, 28.0 kg.
+Predateur no 5 : Requin Brun, age : 46, x: 1 y:1, 27.0 kg.
+10 attaque 16
+16 est mort
+Predateur no 5 : Requin Brun, age : 47, x: 1 y:0, 26.0 kg.
+Predateur no 5 : Requin Brun, age : 48, x: 1 y:1, 25.0 kg.
+Predateur no 5 : Requin Brun, age : 49, x: 1 y:1, 24.0 kg.
+Predateur no 5 : Requin Brun, age : 50, x: 1 y:1, 23.0 kg.
+Predateur no 5 : Requin Brun, age : 51, x: 0 y:1, 22.0 kg.
+23 attaque 31
+31 est mort
+Predateur no 5 : Requin Brun, age : 52, x: 0 y:1, 21.0 kg.
+11 attaque 50
+50 est mort
+Predateur no 5 : Requin Brun, age : 53, x: 0 y:0, 20.0 kg.
+23 attaque 49
+49 est mort
+Predateur no 5 : Requin Brun, age : 54, x: 0 y:0, 19.0 kg.
+11 attaque 53
+53 est mort
+Predateur no 5 : Requin Brun, age : 55, x: 1 y:0, 18.0 kg.
+11 attaque 15
+15 est mort
+10 attaque 46
+46 est mort
+Predateur no 5 : Requin Brun, age : 56, x: 1 y:0, 17.0 kg.
+11 attaque 29
+29 est mort
+Predateur no 5 : Requin Brun, age : 57, x: 1 y:1, 16.0 kg.
+Predateur no 5 : Requin Brun, age : 58, x: 1 y:2, 15.0 kg.
+Predateur no 5 : Requin Brun, age : 59, x: 2 y:2, 14.0 kg.
+Predateur no 5 : Requin Brun, age : 60, x: 2 y:1, 13.0 kg.
+Predateur no 5 : Requin Brun, age : 61, x: 1 y:1, 12.0 kg.
